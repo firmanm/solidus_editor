@@ -10,8 +10,8 @@ else
   gem "rails", "~> 4.2.7"
 end
 
-gem 'pg'
-gem 'mysql2'
+gem 'pg', '~> 0.21'
+gem 'mysql2', '~> 0.4.10'
 
 group :development, :test do
   gem "pry-rails"
