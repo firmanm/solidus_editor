@@ -22,7 +22,7 @@ Gem::Specification.new do |s|
   s.requirements << 'none'
 
   s.add_dependency 'ckeditor',      '~> 4.1'
-  s.add_dependency 'deface',        '~> 1.2.0'
+  s.add_dependency 'deface',        ['>= 1.0.2', '< 1.4']
   s.add_dependency 'solidus_backend', ['>= 1.0', '< 3']
   s.add_dependency 'tinymce-rails', '~> 4.2.5'
 
@@ -30,7 +30,6 @@ Gem::Specification.new do |s|
   s.add_development_dependency 'guard-rspec'
   s.add_development_dependency 'capybara', '~> 2.14'
   s.add_development_dependency 'database_cleaner', '~> 1.6'
-  s.add_development_dependency 'factory_bot', '~> 4.4'
   s.add_development_dependency 'ffaker'
   s.add_development_dependency 'selenium-webdriver'
   s.add_development_dependency 'poltergeist', '~> 1.9'
